@@ -1,0 +1,25 @@
+.sidebarItem {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 1.5rem;
+  padding: 20px;
+}
+
+.sidebarItem:hover {
+  background-color: #e8f5fe;
+  border-radius: 3rem;
+  color: var(--twitter-color);
+  transition: color 100ms ease-out;
+}
+
+.itemText {
+  font-weight: 800;
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+.SidebarItem--active {
+  color: var(--twitter-color);
+}

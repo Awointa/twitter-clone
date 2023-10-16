@@ -1,0 +1,11 @@
+.sidebar__button {
+  background-color: var(--twitter-color) !important;
+  width: 100% !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 3rem !important;
+  height: 5rem !important;
+  margin-top: 2rem !important;
+}
